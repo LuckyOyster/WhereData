@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingActivity">
+
+    <LinearLayout>
+        <com.siberiadante.titlelayoutlib.TitleBarLayout
+            android:id="@+id/titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:d_title_text="主界面"
+            app:d_title_layout_background="#81BAE0"
+            app:d_right_text="设置"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
